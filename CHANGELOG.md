@@ -1,5 +1,12 @@
 # Changelog
 
+## v4.5 — Ideas
+- A new **Ideas** tab. Every idea is a pitch to you, the CEO.
+- A weekly **board meeting** (Sunday 19:00 by default) shows waiting pitches one by one: **Fund** turns it into a project, **Hold** brings it back next week (three holds and it's a final pitch), **Kill** sends it to the graveyard, where you can resurrect it.
+- A **wildcard round** picks two old ideas and asks: what if these were one thing?
+- Catch ideas fast from a Quick Settings tile or by long-pressing the app icon. Add a note or a voice memo of up to 2 minutes. Memos stay on your phone.
+- Meeting minutes are saved, and the board meeting day and time can be changed in Settings.
+
 ## v4.4 — New icon
 - A new app icon, "Pulse Case": a heartbeat running through a briefcase. Life and business on one line.
 - Matching themed icon (Android 13+) and notification icon.

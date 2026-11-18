@@ -25,6 +25,7 @@
   <img src="assets/screens/today.webp" width="200" alt="Today">
   <img src="assets/screens/subscriptions.webp" width="200" alt="Subscriptions">
   <img src="assets/screens/projects.webp" width="200" alt="Projects">
+  <img src="assets/screens/ideas.webp" width="200" alt="Ideas">
   <img src="assets/screens/money.webp" width="200" alt="Money">
 </p>
 
@@ -46,6 +47,11 @@
 ### 📊 Projects: see how far along you are
 - Keep the projects you care about, with an optional deadline.
 - Tap a 10-step bar to update progress. Projects you haven't touched in a week get a gentle "idle" hint.
+
+### 💡 Ideas: every idea gets a decision
+- Write ideas down the moment they come: from a Quick Settings tile, the app-icon shortcut, or the tab itself. Add a note or a voice memo (up to 2 minutes, kept on your phone).
+- Once a week the **board meeting** shows your pitches one by one. **Fund** turns an idea into a project, **Hold** brings it back next week (three holds and it's a final pitch), **Kill** sends it to the graveyard, where you can resurrect it.
+- A **wildcard round** draws two old ideas and asks: what if these were one thing?
 
 ### 💰 Money: your monthly plan
 - Add your salary and recurring bills (rent, utilities, loans, insurance…).
@@ -94,12 +100,13 @@ shasum -a 256 LifeCEO.apk
 
 | Permission | Why Life CEO needs it |
 |---|---|
-| Notifications | Subscription, trial and bill warnings, and "Missed" reminders |
+| Notifications | Subscription, trial and bill warnings, board meetings, and "Missed" reminders |
 | Alarms & reminders (exact alarms) | To ring at exactly the time you set, not "around then" |
 | Full-screen notifications | To show the alarm over the lock screen |
 | Ignore battery optimization | So the phone doesn't put alarms to sleep |
 | Run at startup | To re-arm your alarms after the phone restarts |
 | Vibrate, keep awake, foreground service | To ring and vibrate until you tap Done or Snooze |
+| Microphone (optional) | Only to record a voice memo on an idea. Asked the first time you tap record |
 
 **There is no internet permission.** The app can't send your data anywhere.
 
