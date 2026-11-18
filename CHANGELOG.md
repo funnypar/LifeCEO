@@ -1,5 +1,9 @@
 # Changelog
 
+## v4.4 — New icon
+- A new app icon, "Pulse Case": a heartbeat running through a briefcase. Life and business on one line.
+- Matching themed icon (Android 13+) and notification icon.
+
 ## v4.3 — Life CEO
 - The app has a new name: **Daily** is now **Life CEO**.
 - Same app and same data. It installs over Daily and keeps everything.
