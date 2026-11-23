@@ -103,7 +103,6 @@ shasum -a 256 LifeCEO.apk
 | Notifications | Subscription, trial and bill warnings, board meetings, and "Missed" reminders |
 | Alarms & reminders (exact alarms) | To ring at exactly the time you set, not "around then" |
 | Full-screen notifications | To show the alarm over the lock screen |
-| Ignore battery optimization | So the phone doesn't put alarms to sleep |
 | Run at startup | To re-arm your alarms after the phone restarts |
 | Vibrate, keep awake, foreground service | To ring and vibrate until you tap Done or Snooze |
 | Microphone (optional) | Only to record a voice memo on an idea. Asked the first time you tap record |

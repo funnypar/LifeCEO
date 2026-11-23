@@ -1,5 +1,21 @@
 # Changelog
 
+## v4.7 — Your data, safe
+- **Updates never lose your data.** If anything in your data can't be read, only that one item is left out; everything else loads, and the file as it was is kept safely on your phone, with a button to send it for recovery.
+- Each update keeps a copy of your data from the version before.
+- Data saved by a newer Life CEO is never overwritten by an older one.
+- **Export and import** in Settings → Your data: everything, voice memos included, in one file. Use it to back up, to move to a new phone, or to switch between this download and the Google Play version.
+- Android's own backup now includes your data and voice memos.
+
+## v4.6 — Shopping
+- A new **Shop** tab, right after Today. Type "milk @Lidl" to tag a store; the list is grouped by store, with chips to show one store at a time.
+- Tick things off as you buy them. Everything you've bought becomes a **usual item** you can put back on the list in one tap.
+- Add a quantity ("2 kg") to any item, and share the list as text with anyone.
+- Each project gets its own **board**: To do, In progress and Done. Once a project has tasks, its progress follows them.
+- **One-time income**: log a bonus, a gift or a freelance job. It counts toward that month only.
+- Easier setup: the battery-limits step is gone. Reminders still ring on time.
+- Rebuilt to share its code with the new iPhone version.
+
 ## v4.5 — Ideas
 - A new **Ideas** tab. Every idea is a pitch to you, the CEO.
 - A weekly **board meeting** (Sunday 19:00 by default) shows waiting pitches one by one: **Fund** turns it into a project, **Hold** brings it back next week (three holds and it's a final pitch), **Kill** sends it to the graveyard, where you can resurrect it.
