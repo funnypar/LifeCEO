@@ -127,7 +127,7 @@ footer a{color:var(--muted)}
     <div class="arc"></div>
     <div style="position:relative;z-index:1">
       <h1>Run your day<br>like a company.</h1>
-      <p class="lead">Reminders that actually ring, subscriptions, projects and your monthly money plan, in one private Android app.</p>
+      <p class="lead">Reminders that actually ring, subscriptions, projects and your monthly money plan, in one private Android app. Now with Juno, an assistant you just talk to.</p>
       <div class="ctas">
         <a class="btn primary" href="https://github.com/funnypar/LifeCEO/releases/latest/download/LifeCEO.apk">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
@@ -135,7 +135,7 @@ footer a{color:var(--muted)}
         </a>
         <a class="btn ghost" href="#install">How to install</a>
       </div>
-      <div class="meta">v<span id="ver">4.7</span> · Android 12+ · ~25 MB · Free</div>
+      <div class="meta">v<span id="ver">5.2</span> · Android 12+ · ~25 MB · Free</div>
     </div>
     <div class="phone"><img src="assets/screens/today.webp" alt="Life CEO Today screen" width="540" height="1200"></div>
   </header>
@@ -143,7 +143,7 @@ footer a{color:var(--muted)}
   <div class="badges">
     <span class="badge"><b>No ads</b></span>
     <span class="badge"><b>No account</b></span>
-    <span class="badge"><b>No internet permission</b></span>
+    <span class="badge"><b>Offline</b> unless you turn on Juno</span>
     <span class="badge">Light &amp; dark</span>
     <span class="badge">Any currency, including Toman &amp; TL</span>
   </div>
@@ -212,6 +212,18 @@ footer a{color:var(--muted)}
         </div>
         <img src="assets/screens/money.webp" alt="Money" loading="lazy">
       </article>
+      <article class="card">
+        <div>
+          <h3><span class="dot" style="background:linear-gradient(135deg,#6C63FF,#C95BE8,#2FD0B0)"></span>Juno</h3>
+          <p style="margin:0">Your chief of staff. Just say it.</p>
+          <ul>
+            <li>"Remind me to stretch at 7am on weekdays" or "Netflix 12.99 a month, renews on the 3rd", and it's done, with Undo and Edit</li>
+            <li>Tap Juno for a hands-free voice conversation; it answers out loud in a young British voice</li>
+            <li>Rename it, pick its look and a Concise, Friendly or Playful personality. Optional and off until you turn it on</li>
+          </ul>
+        </div>
+        <img src="assets/screens/juno.webp" alt="Juno" loading="lazy">
+      </article>
     </div>
   </section>
 
@@ -227,6 +239,7 @@ footer a{color:var(--muted)}
       <figure><img src="assets/screens/ideas.webp" alt="" loading="lazy"><figcaption>Ideas</figcaption></figure>
       <figure><img src="assets/screens/meeting.webp" alt="" loading="lazy"><figcaption>Board meeting</figcaption></figure>
       <figure><img src="assets/screens/money.webp" alt="" loading="lazy"><figcaption>Money</figcaption></figure>
+      <figure><img src="assets/screens/juno.webp" alt="" loading="lazy"><figcaption>Juno</figcaption></figure>
       <figure><img src="assets/screens/settings.webp" alt="" loading="lazy"><figcaption>Settings</figcaption></figure>
     </div>
   </section>
@@ -248,7 +261,7 @@ footer a{color:var(--muted)}
 
   <section>
     <h2>Permissions and why</h2>
-    <p class="sub">Each one exists so alarms ring when they should. None of them can send your data anywhere.</p>
+    <p class="sub">Almost all of them exist so alarms ring when they should. Only Internet can send anything, and only while you use Juno.</p>
     <table class="table">
       <thead><tr><th>Permission</th><th>Why</th></tr></thead>
       <tbody>
@@ -257,7 +270,8 @@ footer a{color:var(--muted)}
         <tr><td>Full-screen notifications</td><td>To show the alarm over the lock screen</td></tr>
         <tr><td>Run at startup</td><td>To re-arm alarms after a restart</td></tr>
         <tr><td>Vibrate, stay awake</td><td>To ring until you tap Done or Snooze</td></tr>
-        <tr><td>Microphone (optional)</td><td>Only to record a voice memo on an idea, asked the first time you tap record</td></tr>
+        <tr><td>Microphone (optional)</td><td>To record a voice memo on an idea, and to talk to Juno, only while you are recording or talking. Asked the first time</td></tr>
+        <tr><td>Internet</td><td>Only for Juno, and only while you use it. Nothing goes online while Juno is off</td></tr>
       </tbody>
     </table>
   </section>
@@ -265,8 +279,8 @@ footer a{color:var(--muted)}
   <section>
     <h2>Private by design</h2>
     <div class="privacy">
-      <div class="pv"><b>On your phone only</b><span>Everything is stored in the app's private storage. Nothing is uploaded.</span></div>
-      <div class="pv"><b>No internet permission</b><span>The app has no way to reach the network.</span></div>
+      <div class="pv"><b>On your phone only</b><span>Everything is stored in the app's private storage. Nothing is uploaded unless you use Juno.</span></div>
+      <div class="pv"><b>Juno is opt-in</b><span>Off until you turn it on. While you use it, your words and a short summary of your lists are sent to work out what you mean, and nothing is kept. <a href="privacy.html">Details</a></span></div>
       <div class="pv"><b>No account, no tracking</b><span>No sign-up, no analytics, no ads.</span></div>
     </div>
   </section>
@@ -276,9 +290,10 @@ footer a{color:var(--muted)}
     <details><summary>My alarm didn't ring.</summary><p>Open Settings → Check setup and allow every item. Some phones (Xiaomi, Huawei, Samsung, Oppo…) also have their own battery saver. Set Life CEO to "Unrestricted" there.</p></details>
     <details><summary>Does it ring in silent mode?</summary><p>Yes. It uses the alarm volume, like your clock app.</p></details>
     <details><summary>Is there an iPhone version?</summary><p>No, Android only (Android 12 or newer).</p></details>
-    <details><summary>Can I move my data to a new phone?</summary><p>Not yet. Data lives on the phone only.</p></details>
+    <details><summary>Can I move my data to a new phone?</summary><p>Yes. Settings → Your data → Export saves everything, voice memos included, in one file. Import it on the new phone.</p></details>
+    <details><summary>Does Juno cost anything?</summary><p>No. Juno is free, with 50 requests a day per phone. It's off until you turn it on in Settings, and the rest of the app works the same without it.</p></details>
     <details><summary>Why isn't it on the Play Store?</summary><p>It's a small personal project. Sideloading keeps it free and simple.</p></details>
-    <details><summary>What changed recently?</summary><p>See the <a href="https://github.com/funnypar/LifeCEO/blob/main/CHANGELOG.md">changelog</a>. The latest version renamed Daily to Life CEO.</p></details>
+    <details><summary>What changed recently?</summary><p>See the <a href="https://github.com/funnypar/LifeCEO/blob/main/CHANGELOG.md">changelog</a>. The latest version, 5.2, gives Juno its own button and a voice conversation.</p></details>
   </section>
 
   <div class="final">
