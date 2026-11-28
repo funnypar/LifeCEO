@@ -98,7 +98,7 @@ footer a{color:var(--muted)}
   <ul>
     <li>what you said or typed, and the last few things said while the assistant is open;</li>
     <li>a short summary of your lists: the names, times, amounts and dates of your reminders, subscriptions, projects, income and bills, and totals such as what's free this month. Notes, ideas, shopping lists and voice memos are never sent;</li>
-    <li>a random ID created when you turned the assistant on, used only to count requests (10 a day per phone);</li>
+    <li>a random ID created when you turned the assistant on, used only to count requests (50 a day per phone);</li>
     <li>the assistant's name and the reply style you picked (Concise, Friendly or Playful). The name you give for yourself so Juno can greet you is never sent.</li>
   </ul>
   <p>This goes to our server on Cloudflare, which passes it to Cloudflare's AI service (Workers AI) to work out what you meant, and sends the answer back to your phone. To read Juno's reply out loud, the reply text is sent the same way to Cloudflare's text-to-speech and the sound is sent back (a copy of recent spoken lines is kept on your phone so they don't need to be fetched again). Nothing you send is saved or logged by us; Cloudflare handles it under <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's Privacy Policy</a>. The only thing kept is a count of requests per random ID and per network address for the current day, deleted the next day.</p>
