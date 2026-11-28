@@ -62,16 +62,16 @@ footer a{color:var(--muted)}
 
   <header>
     <h1>Privacy Policy</h1>
-    <p class="date">Effective 19 November 2026</p>
+    <p class="date">Effective 26 November 2026</p>
   </header>
 
   <div class="summary">
     <b>The short version</b>
     <ul>
       <li>Everything you enter stays on your phone.</li>
-      <li>The app never connects to the internet. It cannot send your data anywhere.</li>
+      <li>The app only goes online if you turn on the optional assistant (Android, off by default), and only when you use it.</li>
       <li>No account, no ads, no analytics, no tracking.</li>
-      <li>We never see, collect, sell or share your data.</li>
+      <li>We never sell or share your data, and the assistant's server keeps none of what you send.</li>
     </ul>
   </div>
 
@@ -87,10 +87,22 @@ footer a{color:var(--muted)}
     <li>Ideas, their notes, board meeting minutes, and any voice memos you record</li>
     <li>App settings such as theme and clock format</li>
   </ul>
-  <p>This information is saved only in the app's private storage on your device. Other apps cannot read it, and it is never uploaded to us or to anyone else.</p>
+  <p>This information is saved only in the app's private storage on your device. Other apps cannot read it, and it is never uploaded to us or to anyone else, except for what the optional assistant sends while you use it (see below).</p>
 
   <h2>Information we collect</h2>
-  <p>None. The app contains no code that connects to the internet (on Android it does not even request the internet permission), so it cannot connect to any server. It contains no analytics, crash reporting, advertising or tracking code, and it does not ask for your name, email, location, contacts, photos or any account.</p>
+  <p>None, unless you use the assistant. The app contains no analytics, crash reporting, advertising or tracking code, and it does not ask for your name, email, location, contacts, photos or any account. The iPhone app never connects to the internet.</p>
+
+  <h2>Juno, the assistant (Android, optional)</h2>
+  <p>From version 5.0 the Android app has an assistant: you say or type one thing ("remind me to call Mom at 6pm") and it does it. It is <b>off until you turn it on</b>, and the app explains what it sends before you do. You can turn it off any time in Settings › Juno. From version 5.1 the assistant is called Juno, and you can rename it.</p>
+  <p>Each time you use it, the app sends over an encrypted connection:</p>
+  <ul>
+    <li>what you said or typed, and the last few things said while the assistant is open;</li>
+    <li>a short summary of your lists: the names, times, amounts and dates of your reminders, subscriptions, projects, income and bills, and totals such as what's free this month. Notes, ideas, shopping lists and voice memos are never sent;</li>
+    <li>a random ID created when you turned the assistant on, used only to count requests (10 a day per phone);</li>
+    <li>the assistant's name and the reply style you picked (Concise, Friendly or Playful). The name you give for yourself so Juno can greet you is never sent.</li>
+  </ul>
+  <p>This goes to our server on Cloudflare, which passes it to Cloudflare's AI service (Workers AI) to work out what you meant, and sends the answer back to your phone. To read Juno's reply out loud, the reply text is sent the same way to Cloudflare's text-to-speech and the sound is sent back (a copy of recent spoken lines is kept on your phone so they don't need to be fetched again). Nothing you send is saved or logged by us; Cloudflare handles it under <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare's Privacy Policy</a>. The only thing kept is a count of requests per random ID and per network address for the current day, deleted the next day.</p>
+  <p>Voice is turned into text by your phone's own speech recognizer (on the phone where available, otherwise your phone's speech service), only while you hold the mic or orb, or after you tap it until you pause. The app sends only the resulting text. Spoken replies are read out by your phone's own text-to-speech voices, offline.</p>
   <p>Voice memos are recorded only when you tap record on an idea. The audio file is saved in the app's private storage next to the idea and is deleted when you delete the idea. It is never uploaded or transcribed.</p>
 
   <h2>Device backup</h2>
@@ -107,7 +119,8 @@ footer a{color:var(--muted)}
     <tr><td>Full-screen alarms</td><td>Showing the alarm over the lock screen when it rings.</td></tr>
     <tr><td>Foreground service (media playback)</td><td>Playing the alarm sound until you dismiss it.</td></tr>
     <tr><td>Vibrate, wake lock</td><td>Vibrating and keeping the phone awake while an alarm rings.</td></tr>
-    <tr><td>Microphone (optional)</td><td>Recording a voice memo on an idea, only while you are recording. Asked the first time you tap record.</td></tr>
+    <tr><td>Microphone (optional)</td><td>Recording a voice memo on an idea, and talking to the assistant, only while you are recording or holding the mic. Asked the first time.</td></tr>
+    <tr><td>Internet</td><td>Only for the optional assistant, and only when you use it. Nothing goes online while it is off.</td></tr>
     <tr><td>Run at startup</td><td>Re-scheduling your alarms after the phone restarts or the time zone changes.</td></tr>
     <tr><td>Ignore battery optimizations<br><span class="muted" style="font-weight:400">(website version only)</span></td><td>Asking Android not to delay alarms to save power.</td></tr>
   </table>
@@ -122,7 +135,7 @@ footer a{color:var(--muted)}
     <tr><td>Background App Refresh</td><td>Keeping the next two weeks of reminders planned when you haven't opened the app for a while.</td></tr>
   </table>
   </div>
-  <p>None of these permissions give the app access to your personal files, messages, contacts or location. The microphone is used only while you are recording a memo.</p>
+  <p>None of these permissions give the app access to your personal files, messages, contacts or location. The microphone is used only while you are recording a memo or holding the assistant's mic.</p>
 
   <h2>Links that leave the app</h2>
   <p>The Settings screen has links to email, GitHub and Telegram. Tapping one opens that app or website, which has its own privacy policy. The app shares nothing with them; you choose what to send.</p>
