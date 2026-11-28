@@ -1,5 +1,11 @@
 # Changelog
 
+## v5.0 — Just say it
+- **An assistant** (Android): tap the mic next to the gear on any tab and type, or hold it and talk. "Remind me to stretch at 7am on weekdays", "Netflix 12.99 a month, renews on the 3rd", "How much is free this month?"
+- It adds, changes and deletes reminders, subscriptions, projects, income and bills, and answers questions about them. One thing at a time.
+- New things are added straight away, with anything it guessed marked in amber and an Edit button. Changes and deletes wait for your Confirm.
+- **Off until you turn it on.** It's free, with 10 requests a day. Only while you use it are your words and a short summary of your lists sent to work out what you mean; nothing is kept. Everything else stays on your phone.
+
 ## v4.7 — Your data, safe
 - **Updates never lose your data.** If anything in your data can't be read, only that one item is left out; everything else loads, and the file as it was is kept safely on your phone, with a button to send it for recovery.
 - Each update keeps a copy of your data from the version before.
