@@ -1,5 +1,20 @@
 # Changelog
 
+## v5.2 — Talk to Juno
+- **Juno has its own button**, bottom-left, opposite the +. It's a little character now: a wobbly blob with eyes that blink and look around, and it ponders with thought bubbles while it works out an answer. The + is a plain add button again.
+- **Tap Juno for a voice conversation.** It greets you, listens, answers out loud and listens again, hands-free. Tap it to interrupt; when you go quiet it dozes until you tap it. Hold Juno for a quick one-off ask.
+- **A new voice**: a young British man. Juno's words appear as it says them, starting in about a second. Offline, it uses your phone's own voice.
+- Juno greets you by name when it opens, and the Playful personality is properly playful now.
+- **50 requests a day**, up from 10. A softer, lower listening chime.
+
+## v5.1 — Meet Juno
+- The assistant now has a name: **Juno, your chief of staff**. It has a face too, an animated gradient orb that reacts while it listens, thinks and speaks.
+- Hold the + and just talk: the screen edges glow with your voice and your words show live. Swipe up on the + for the full Juno screen, where you can type.
+- **Undo** or Edit anything Juno adds.
+- **Make it yours** in Settings → Juno: rename it, tell it your name (never sent), pick one of four looks and a voice, and choose Concise, Friendly or Playful replies.
+- Juno can read its replies out loud: when you talk, always, or never.
+- Long-press the app icon for **Ask Juno**.
+
 ## v5.0 — Just say it
 - **An assistant** (Android): tap the mic next to the gear on any tab and type, or hold it and talk. "Remind me to stretch at 7am on weekdays", "Netflix 12.99 a month, renews on the 3rd", "How much is free this month?"
 - It adds, changes and deletes reminders, subscriptions, projects, income and bills, and answers questions about them. One thing at a time.
